@@ -1,5 +1,5 @@
 # 文件结构以及意义
-
+```js
 actualProject
     |    |---core                核心模块。
     |    |    |---lib            第三方资源。
@@ -28,3 +28,4 @@ actualProject
     id: 066624, // 用户ID
     photo: 'http://test.xuuue.cn/066624.png', // 头像
 }
+```
