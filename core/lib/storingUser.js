@@ -1,11 +1,12 @@
 $(function() {
-    const arr = []
-    for(let i = 0; i <= 9; i++) {
-        const obj = {};
-        obj.phone = '1234567890' + i;
-        obj.password = '123456';
-        arr.push(obj);
-    }
-    JSON.stringify(arr);
-    localStorage.setItem('users',JSON.stringify(arr));
+    // 默认自动注册10个用户
+    const public = new Public();
+    public.autoRegistered();
+
+    // const scale = $('body').width() / 1920;
+    // $('html').css('font-size', `${100 * scale}px`);
+
+    // 头部
+    $('#header').load('../core/header.html');
+    $('#footer').load('../core/footer.html');
 })

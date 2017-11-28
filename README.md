@@ -9,14 +9,21 @@ actualProject
     |    |    |    |---less.min.js         less包。
     |    |    |    |---fun.js              公共方法。
     |    |    |    |---storingUser.js      初始化用户数据。
-    |    |    |    |---bootstrap.min.js    bootstrapJS包
-    |    |    |    |---bootstrap.min.css   bootstrapCSS包
+    |    |    |    |---bootstrap.min.js    bootstrapJS包。
+    |    |    |    |---bootstrap.min.css   bootstrapCSS包。
+    |    |    |    |---underscore-min.js   underscoreJS包。
     |    |    |
-    |    |    |---header.js                 头部公共代码
-    |    |    |---style.less     公共样式
+    |    |    |---header.html       头部公共代码。
+    |    |    |---footer.html       头部公共代码。
+    |    |    |---style.less        公共样式。
     |    |
-    |    |---home       首页。
-    |    |---login      登陆注册页。
+    |    |---homePage       首页。
+    |    |---login          登陆注册页。
+    |    |---articels       产品。
+    |    |---Features       
+    |    |---GetStarted
+    |    |---Pricing
+    |    |---ArticelsDatalis
     |
     |---page.json                     项目的内容数据。
     |---README.md                     项目信息。
@@ -26,9 +33,18 @@ actualProject
 //用户表
 // users
 {
-    phone: '13657677238', // 手机号码
+    phone: '123456', // 手机号码
     password: 'xxxxx',
     id: 066624, // 用户ID
-    photo: '', // 头像
+    photo: './core/images/portrait.png', // 头像
+},
+
+{
+    "吴昊": "Articels",
+    "李晓艳": "Features",
+    "吴加梁": "GetStarted",
+    "邓军祥": "HomePage",
+    "何勇": "Pricing",
+    "待定"： "ArticelsDatalis"
 }
 ```
