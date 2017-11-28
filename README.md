@@ -42,7 +42,7 @@ actualProject
 {
     "吴昊": "Articels",
     "李晓艳": "Features",
-    "吴加梁": "GetStarted",
+    "吴加良": "GetStarted",
     "邓军祥": "HomePage",
     "何勇": "Pricing",
     "待定"： "ArticelsDatalis"
