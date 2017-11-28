@@ -2,12 +2,15 @@
 ```js
 actualProject
     |    |---core                核心模块。
+    |    |    |---images         公共图片。
     |    |    |---lib            第三方资源。
     |    |    |    |---normalize.css       css初始化。
     |    |    |    |---jquery-3.2.1.js     jq包。
     |    |    |    |---less.min.js         less包。
     |    |    |    |---fun.js              公共方法。
     |    |    |    |---storingUser.js      初始化用户数据。
+    |    |    |    |---bootstrap.min.js    bootstrapJS包
+    |    |    |    |---bootstrap.min.css   bootstrapCSS包
     |    |    |
     |    |    |---header.js                 头部公共代码
     |    |    |---style.less     公共样式
@@ -26,6 +29,6 @@ actualProject
     phone: '13657677238', // 手机号码
     password: 'xxxxx',
     id: 066624, // 用户ID
-    photo: 'http://test.xuuue.cn/066624.png', // 头像
+    photo: '', // 头像
 }
 ```
